@@ -24,7 +24,7 @@ else if(name==null || name==""){
   alert("Password must be at least 6 characters long.");  
   return false;  
   }else if(firstpassword != secondpassword){  
-      alert("pleaase enter a valid password")
+      alert("Passwords don't match")
 return false;  
 }else if(mobile.length<10 || mobile.length>10){
     alert("enter a valid mobile number");
@@ -36,12 +36,12 @@ return false;
 </script>  
 <body>  
 <form name="myform" method="post" action="https://in.pinterest.com/" onsubmit="return validateform()" >  
-Name: <input type="text" name="name"><br/>
-E-Mail:<input type = "text" name = "email"/><br>
-Password: <input type="text" name="password"/><br>
-Re-Enter<input type =  "text" name = "password2"/><br>
-Mobile Number<input type = "number" placeholder="+91" name = "number"/><br>
-<input type="submit" value="register">  
+Name: <input type="text" name="name"></br><br>
+E-Mail:<input type = "text" name = "email"/></br><br>
+Password: <input type="text" name="password"/><br><br>
+Re-Enter<input type =  "text" name = "password2"/><br><br>
+Mobile Number<input type = "number" placeholder="+91" name = "number"/><br><br>
+<input type="submit" value="Register">  
 </form>  
 </body>
 </html>
